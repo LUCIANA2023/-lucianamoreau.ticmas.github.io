@@ -28,8 +28,8 @@ function handleSubmit(event){
   console.log(form.get('name'))
   $botonMailto.setAttribute('href', ` mailto:moreau.luciana@yahoo.com.ar?subject=${form.get('name')} [ ${form.get('email')} ]&body=${form.get('message')}`)
   $botonMailto.click()
-}
-
+ }
+   
 // Get the button:
 let mybutton = document.getElementById("myBtn");
 
