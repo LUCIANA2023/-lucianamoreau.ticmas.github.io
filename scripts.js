@@ -17,7 +17,6 @@ themeButtons.forEach(color =>{
 
 
 // Formulario para envío pre-configurado
-
 const $form = document.querySelector('#form')
 const $botonMailto = document.querySelector('#envio-mail')
 
