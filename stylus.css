@@ -4,7 +4,6 @@
   --negro:rgb(86, 88, 89);
   --white:#ffffff;
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +19,7 @@ body{
   font-family: 'Open Sans', sans-serif;
   color: var(--negro);
   background: #f1f1f1;
-  background-image: url(/images/humo-0.png), linear-gradient(white 30%,#e7e7e7 100%);
+  background-image: url(humo-0.png), linear-gradient(white 30%,#e7e7e7 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -31,7 +30,6 @@ h1,h2,h3,h4,h5,h6{
   text-transform: uppercase;
   font-weight: 500;
 }
-
 h1{
   font-size: 6rem;
   font-weight: bold;
